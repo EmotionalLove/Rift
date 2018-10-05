@@ -40,6 +40,8 @@ dependencies {
     implementation('net.minecraft:launchwrapper:1.12') { transitive = false }
     implementation 'org.ow2.asm:asm:6.2'
     implementation 'org.ow2.asm:asm-commons:6.2'
+    implementation 'log4j:log4j:1.2.11'
+    implementation files('libraries/SimpleEventSystem.jar')
 }
 
 minecraft {
